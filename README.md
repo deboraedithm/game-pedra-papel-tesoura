@@ -29,3 +29,8 @@ O layout usa um fundo estilizado com as cores:
 - Preto: `#000000`
 
 Com ícones e gráficos representando os movimentos clássicos do jogo.
+
+## 📄 Licença
+
+Este projeto está sob a [Licença de Uso com Atribuição](./LICENSE.md).  
+Você pode usar, adaptar e compartilhar, **desde que mantenha os devidos créditos ao autor**.
