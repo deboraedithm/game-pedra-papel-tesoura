@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel e Tesoura!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="https://i.postimg.cc/GpCxYmvc/title.png" alt="Logo" class="logo">
+  
+    <div class="container">
+        <div class="content">
+            <h1>Pedra, Papel e Tesoura!</h1>
+            <h2>Pra ganhar é preciso arriscar!</h2>
+            
+            <div id="game-area" class="hidden">
+                <div class="score-board">
+                    <div class="score">
+                        <p>Jogador</p>
+                        <span id="player-score">0</span>
+                    </div>
+                    <div class="score">
+                        <p>Computador</p>
+                        <span id="computer-score">0</span>
+                    </div>
+                </div>
+                
+                <div class="choices">
+                    <div class="choice" id="pedra">
+                        <img src="midia/rock.svg" alt="Pedra">
+                        <p>Pedra</p>
+                    </div>
+                    <div class="choice" id="papel">
+                        <img src="midia/paper.svg" alt="Papel">
+                        <p>Papel</p>
+                    </div>
+                    <div class="choice" id="tesoura">
+                        <img src="midia/scissors.svg" alt="Tesoura">
+                        <p>Tesoura</p>
+                    </div>
+                </div>
+                
+                <div class="result">
+                    <div class="player-choice">
+                        <h3>Você</h3>
+                        <div id="player-choice-img"></div>
+                    </div>
+                    <div class="versus">VS</div>
+                    <div class="computer-choice">
+                        <h3>Computador</h3>
+                        <div id="computer-choice-img"></div>
+                    </div>
+                </div>
+                
+                <div id="message"></div>
+                <button id="play-again" class="hidden">Jogar Novamente</button>
+            </div>
+            
+            <div id="welcome-screen">
+                <p>PEDRA, PAPEL ou TESOURA?</p>
+                <button id="start-game">Bora jogar!</button>
+            </div>
+        </div>
+    </div>
+    
+    <div id="age-modal" class="modal">
+        <div class="modal-content">
+            <h2>Verificação de Idade</h2>
+            <p>Por favor, informe sua idade para jogar:</p>
+            <input type="number" id="age-input" min="1" max="120">
+            <button id="confirm-age">Confirmar</button>
+        </div>
+    </div>
+    
+    <footer>Alura - Imersão DEV - 2025</footer>
+    <footer> Desenvolvido por Débora Edith </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
