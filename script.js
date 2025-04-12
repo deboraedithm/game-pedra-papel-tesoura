@@ -1,3 +1,4 @@
+// Elementos do DOM
 const startBtn = document.getElementById('start-game');
 const welcomeScreen = document.getElementById('welcome-screen');
 const gameArea = document.getElementById('game-area');
@@ -24,7 +25,7 @@ const images = {
     tesoura: "midia/scissors.svg"
 };
 
-// Eventos principais
+// Eventos principais (de clique)
 startBtn.addEventListener('click', () => showAgeModal());
 confirmAgeBtn.addEventListener('click', checkAge);
 playAgainBtn.addEventListener('click', resetRound);
